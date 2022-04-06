@@ -5,17 +5,20 @@ menu:
     name: "AboutMe"
 ---
 
-## Who am I
+## ¿Quien soy?
 
-Hola, aquí vas a leer un poco sobre mi 🤩
+Hola, mi nombre es Diana Magallanes 😎  
 
-> Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit
-> adfusique imis amplexus. Agmina per fabricator
-> mittere Erymanthon habetque tot.
+Tengo 28 años y estudie Ing. en sistemas computacionales (con maestría en docencia).  
+Actualmente trabajo en el sector público y privado (doy clases de informática y también trabajo como ing. en sistemas en una empresa consultora de servicios de EHS). Me siento afortunada ya que he podido desenvolverme en ambas áreas que disfruto bastante.  
 
-**Cineres Nile ipsa** origine discurrunt adest Unde, et quem clausus, imo,
-virens quoque tales, potuit. Ingentes insilit corpore nutricis praebebat roganti
-licuit. Denique a vestros adulantum in bella lina parte et arte generi di igitur
-quis, digitis pedes. Cum resonant tamen, namque in anxia. Non nostri trahens
-ancora.
+Decidí unirme a la misión ya que siento que me falta desempolvarme 😅 y ver que otras tecnologías se usan en el sector productivo.  
+He trabajado la mayor parte de mi vida tecnológica sola, casi casi mi único compañero ha sido Google. Por eso me alegra mucho ver que todos comentan y muestran lo que hacen ya que me motiva mucho para mis propias actividades.  
+
+Entre mis hobbies:  
+
+    -La lectura. No tengo un autor favorito, pero mi libro favorito hasta hoy es Mil soles esplendidos. 📕
+    -Pintura diamante. Durante la pandemia empecé a hacer cuadros para desestresarme y ahora ya se volvió parte de mí 💎.
+    -Mis juegos favoritos: Stardew Valley (ahora lo deje un poco por falta de tiempo)🍎 y varias versiones de los SuperStar rhythm game 🎼.
+    -Cultura geek/friki en general
 
