@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Errores en el camino - Bitácora de Viaje de Diana Magallanes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://dianamagallanes.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Post 1 de los errores que he tenido durante el curso de Backend en Launch X"/>
+    <meta property="og:title" content="Errores en el camino"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://dianamagallanes.github.io/my_launchx_blog/posts/post_2/"/>
+    
+    <meta property="og:description" content="Post 1 de los errores que he tenido durante el curso de Backend en Launch X"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@nanica_0"/>
+    <meta name="twitter:creator" content="@nanica_0"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://dianamagallanes.github.io/my_launchx_blog/">Bitácora de Viaje de Diana Magallanes</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Errores en el camino<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <!-- raw HTML omitted -->
+<p>En los ejercicios de la semana 3 estuvimos realizando proyectos de js con sus respectivas pruebas. Especificamente en el ejercicio 5 tuve un error que fue descuido mío
+ya que no preste atención a la estructura de código (básicamente tuve que refactorizar SI o SI 😅 )</p>
+<p>Este ejercicio tenía 4 requerimientos en los cuales hacíamos diversas pruebas para corroborar que la información
+que proporcionaba el usuario fuera válida.
+En el requerimiento 3 al leer el título de la prueba (<em>regresar un error si no faltaban propiedades</em>) decidi revisar
+que métodos js tiene para revisar si un objeto tiene una propiedad y encontre el método hasOwnProperty, el cual al
+darle el nombre de la key revisa si existe, así que hice lo siguiente:
+<img src="https://user-images.githubusercontent.com/28024862/164952975-9f7c3f0c-fcfd-46f6-a932-acd7e872f0aa.png" alt="imagen"></p>
+<p>Esto no funcionaba bien para la prueba 4 (de hecho para la 3 tampoco ya que analizandolo bien debía verificar que se contara con todas las propiedades no con alguna, asi que
+en lugar de utilizar O debí utilizar Y ( ||  &gt;  &amp;&amp; ) y dentro del else poner el mensaje de error).</p>
+<p>Pero bueno, el error lo encontré al realizar la prueba 4. En la prueba 4 dabamos todas las propiedades así que se cumplían con las condiciones de hasOwnProperty y por lo
+tanto entraba a esa parte de código y arrojaba el error de &ldquo;necesitan un valor válido&rdquo; en lugar de crear el objeto user.</p>
+<p>¿Cómo lo corregí?</p>
+<p>En lugar de verificar si se contaba con la propiedad revisaba si no estaba indefinida, básicamente lo contrario a lo que hacía. Para esto utilice compare si las propiedades
+eran iguales a undefined:
+<img src="https://user-images.githubusercontent.com/28024862/164953262-6bb71fbb-9765-4de7-97d6-2c32c5fb114c.png" alt="imagen"></p>
+<p>En fin, a veces nuestro cerebro cree que tenemos una idea buena pero resulta luego resulta que no la pensamos a profundidad. Para dar con la idea de como codificar la prueba
+no tarde tanto pero vieran como tarde para corregirlo donde no sabía que estaba fallando de la prueba 4 (revisando que escribi todo bien, que tenía todo guardado, etc.)</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/nanica_0" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/DianaMagallanes" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
